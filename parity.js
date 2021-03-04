@@ -1,7 +1,7 @@
 isOdd = (nb) => {
   if
 
-    (nb % 2 === 0) {
+    (nb % 2 !== 0) {
     return true
 
   }
