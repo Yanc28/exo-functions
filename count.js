@@ -2,9 +2,7 @@
 L'exécution de cette fonction devra afficher sur le terminal tous les nombres de min jusqu'a max
 avec un intervale de step */
 
-const min = 1
-const max = 101
-const step = 5
+
 
 const count = (min, max, step) => {
   for (let i = min; i <= max; i += step) {
@@ -12,6 +10,12 @@ const count = (min, max, step) => {
   }
 }
 
-count(min, max, step)
+count(1, 101, 3)
+
+
+
+
+
+
 
 
